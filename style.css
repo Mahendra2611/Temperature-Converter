@@ -1,0 +1,58 @@
+body{
+    background-image: url('img-1.webp');
+    background-size: cover;
+    background-position: center; 
+    box-sizing: border-box;
+}
+#main {
+    padding: 100px 0px 0px 0px;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+#box {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1abc9c;
+    min-height: 200px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+#inp-form {
+    display: inline-block;
+}
+label {
+    font-size: 30px;
+    font-weight: 500;
+}
+input {
+    font-weight: 600;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+h3 {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    right: 40%;
+}
+@media (max-width:700px) {
+    #box {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:500px) {
+    #box {
+        width: 100%;
+        min-height: 200px;
+    }
+}
